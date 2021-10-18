@@ -3,9 +3,9 @@
 
 ### t-rex-rates.py
 
-calculates average hash rate per GPU per coin from hiveos t-rex log file. Useful for checking hashrate for dual LHR mode
+calculates average hash rate per GPU per coin from hiveos t-rex log file. Useful for checking hashrate for dual LHR mode. Probably only useful for rigs with just 1 type of card.
 
-Example:
+Example EVGA RTX 3080 XC3 Ultra:
 ```
 # for i in 3 4 5 6; do ssh user@rig-2-1-$i rate.py; done
 {'rig-2-1-3': [{'ERG': 157.68}, {'ETH': 26.93}]}
